@@ -1,11 +1,18 @@
 # 面试集锦总结文档
 ## 杂项
-1、fwrite和fflush作用
+##1、fwrite和fflush作用
 
 [fwrite,fflush,你不知道的事！](https://blog.csdn.net/zhangxiong2532/article/details/50608898)
 
 [那些年，坑死自己的事之fread/fwrite](https://www.cnblogs.com/ashboy/archive/2014/11/30/fread.html)
 ## 进程通信
+
+### 3、消息队列
+
+[linux c学习笔记----消息队列（ftok,msgget，msgsnd，msgrcv，msgctl）](http://lobert.iteye.com/blog/1743256)
+
+[Linux进程间通信（七）：消息队列 msgget()、msgsend()、msgrcv()、msgctl()](https://www.cnblogs.com/52php/p/5862114.html)
+
 ### 4、信号
 [Linux系统的信号详解](https://blog.csdn.net/u010889616/article/details/48157937)
 
