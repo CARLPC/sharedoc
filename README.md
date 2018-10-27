@@ -1,7 +1,9 @@
 # 面试集锦总结文档
 ## 杂项
 1、fwrite和fflush作用
+
 [fwrite,fflush,你不知道的事！](https://blog.csdn.net/zhangxiong2532/article/details/50608898)
+
 [那些年，坑死自己的事之fread/fwrite](https://www.cnblogs.com/ashboy/archive/2014/11/30/fread.html)
 ## 进程通信
 
