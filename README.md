@@ -6,6 +6,10 @@
 
 [那些年，坑死自己的事之fread/fwrite](https://www.cnblogs.com/ashboy/archive/2014/11/30/fread.html)
 ## 进程通信
+### 4、信号
+[Linux系统的信号详解](https://blog.csdn.net/u010889616/article/details/48157937)
+
+[Linux的信号 SIGALRM和SIGINT的使用示例](https://blog.csdn.net/u010889616/article/details/48158165)
 
 ### 5、信号量(PV操作)
 [进程间通信方式——信号量（Semaphore）](https://blog.csdn.net/skyroben/article/details/72513985)
