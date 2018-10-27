@@ -1,6 +1,6 @@
 # 面试集锦总结文档
 ## 杂项
-##1、fwrite和fflush作用
+### 1、fwrite和fflush作用
 
 [fwrite,fflush,你不知道的事！](https://blog.csdn.net/zhangxiong2532/article/details/50608898)
 
