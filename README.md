@@ -5,6 +5,21 @@
 [fwrite,fflush,你不知道的事！](https://blog.csdn.net/zhangxiong2532/article/details/50608898)
 
 [那些年，坑死自己的事之fread/fwrite](https://www.cnblogs.com/ashboy/archive/2014/11/30/fread.html)
+## 树
+### 1、二叉树
+每个节点最多有两个叶子节点。
+
+[二叉树](https://blog.csdn.net/cai2016/article/details/52589952)
+
+### 2、完全二叉树
+叶节点只能出现在最下层和次下层，并且最下面一层的结点都集中在该层最左边的若干位置的二叉树。
+
+[完全二叉树](https://baike.baidu.com/item/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/7773232?fr=aladdin)
+
+### 3、平衡二叉树
+左右两个子树的高度差的绝对值不超过1，并且左右两个子树都是一棵平衡二叉树。
+
+[浅谈数据结构-平衡二叉树](http://www.cnblogs.com/polly333/p/4798944.html)
 ## 进程通信
 
 ### 3、消息队列
