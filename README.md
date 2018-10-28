@@ -21,7 +21,8 @@
 
 [浅谈数据结构-平衡二叉树](http://www.cnblogs.com/polly333/p/4798944.html)
 ### 4、红黑树
-[最容易懂得红黑树](https://blog.csdn.net/sun_tttt/article/details/65445754)
+[wiki红黑树](https://zh.wikipedia.org/wiki/%E7%BA%A2%E9%BB%91%E6%A0%91)
+[最容易懂得红黑树](https://blog.csdn.net/sun_tttt/article/details/65445754)这篇里有几个地方讲错了，能翻墙的最好去wiki上看比较准确
 
 [《浅谈算法和数据结构: 九 平衡查找树之红黑树》](http://www.cnblogs.com/yangecnu/p/Introduce-Red-Black-Tree.html)
 ## 进程通信
