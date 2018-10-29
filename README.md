@@ -7,6 +7,8 @@
 [那些年，坑死自己的事之fread/fwrite](https://www.cnblogs.com/ashboy/archive/2014/11/30/fread.html)
 ### 2、const和define的区别
 #define 的时候记得加括号，因为有优先级
+
+#define min(a,b) ((a>b)?b:a)
 [const常量与define宏定义的区别](https://blog.csdn.net/sinat_20265495/article/details/52945960)
 ## 树
 ### 1、二叉树
