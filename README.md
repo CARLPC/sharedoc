@@ -44,7 +44,7 @@
 ### 4、信号
 [Linux系统的信号详解](https://blog.csdn.net/u010889616/article/details/48157937)  
 [Linux的信号 SIGALRM和SIGINT的使用示例](https://blog.csdn.net/u010889616/article/details/48158165)  
-[CTRL-C发生了什么--见书本186页](https://blog.csdn.net/u010889616/article/details/48158165)
+[CTRL-C发生了什么--见书本186页](https://github.com/CARLPC/sharedoc/blob/master/unix%20cookbook.pdf)
 
 ### 5、信号量(PV操作)
 [进程间通信方式——信号量（Semaphore）](https://blog.csdn.net/skyroben/article/details/72513985)  
