@@ -14,6 +14,9 @@
 线程占有的资源:栈、寄存器、状态、程序计数器  
 进程占有的资源:地址空间、全局变量、打开的文件、子进程、信号量、账户信息  
 [线程、进程那些是共享、哪些是独占](https://www.nowcoder.com/questionTerminal/dbf3fb0fce0a4a199cd985796bdcad78?from=14pdf)
+### 4、字节对齐
+[C/C++内存对齐详解](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483922&idx=1&sn=6fdbd8178dfaccf7732fb7c9b82a4c94&scene=21#wechat_redirect)
+[类的静态成员](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483732&idx=1&sn=942f4ee8f3e0617b1d189eecd492d73f&scene=21#wechat_redirect)
 
 
 
