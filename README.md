@@ -11,6 +11,12 @@
 #define min(a,b) ((a>b)?b:a)  
 [const常量与define宏定义的区别](https://blog.csdn.net/sinat_20265495/article/details/52945960)  
 ### 3、进程与线程区别
+线程占有的资源:栈、寄存器、状态、程序计数器  
+进程占有的资源:地址空间、全局变量、打开的文件、子进程、信号量、账户信息  
+[线程、进程那些是共享、哪些是独占](https://www.nowcoder.com/questionTerminal/dbf3fb0fce0a4a199cd985796bdcad78?from=14pdf)
+
+
+
 
 ## 树
 ### 1、二叉树
@@ -37,7 +43,8 @@
 
 ### 4、信号
 [Linux系统的信号详解](https://blog.csdn.net/u010889616/article/details/48157937)  
-[Linux的信号 SIGALRM和SIGINT的使用示例](https://blog.csdn.net/u010889616/article/details/48158165)
+[Linux的信号 SIGALRM和SIGINT的使用示例](https://blog.csdn.net/u010889616/article/details/48158165)  
+[CTRL-C发生了什么--见书本186页](https://blog.csdn.net/u010889616/article/details/48158165)
 
 ### 5、信号量(PV操作)
 [进程间通信方式——信号量（Semaphore）](https://blog.csdn.net/skyroben/article/details/72513985)  
