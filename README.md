@@ -35,6 +35,9 @@
 [最容易懂得红黑树](https://blog.csdn.net/sun_tttt/article/details/65445754)这篇里有几个地方讲错了，能翻墙的最好去wiki上看比较准确  
 [《浅谈算法和数据结构: 九 平衡查找树之红黑树》](http://www.cnblogs.com/yangecnu/p/Introduce-Red-Black-Tree.html)
 ## 进程通信
+### 1、管道
+### 2、命名管道
+[管道文件(pipe,popen,mkfifo,pclose,dup2)](http://lobert.iteye.com/blog/1707450)  
 
 ### 3、消息队列
 
