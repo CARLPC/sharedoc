@@ -38,6 +38,10 @@ static aaa* instance(void)
 auto_ptr可以转移所有权，当有两个同时指向同一个内存，当退出作用域的时候会析构两次，造成错误；unique_ptr如果出现这种情况链接不通过；shared_ptr则采用内部计数器的方式，当0的时候就不进行析构
 [智能指针share_ptr和unique_ptr](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483809&idx=1&sn=373d64600b944be7258304119dae247e&scene=21#wechat_redirect)
 
+### 7、多态
+* 多态，即多种状态，在面向对象语言中，接口的多种不同的实现方式即为多态。
+* C++ 多态有两种：静态多态（早绑定）、动态多态（晚绑定）。静态多态是通过函数重载实现的；动态多态是通过虚函数实现的。
+* 多态是以封装和继承为基础的。
 
 
 
