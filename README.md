@@ -17,25 +17,27 @@
 ### 4、字节对齐
 [C/C++内存对齐详解](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483922&idx=1&sn=6fdbd8178dfaccf7732fb7c9b82a4c94&scene=21#wechat_redirect)
 ### 5、static用法
-作为类的静态成员，被所有的类对象所共有
-static加在局部变量的前面改变其存储类型使之成为静态局部变量，会延长它的生存周期，但是注意不会改变其作用域！！！   
-static加在全局变量的前面会限制该变量作用域为文件作用域，也就是说static全局变量只能在定义该变量的文件中使用，不能被其它文件使用。
+* 作为类的静态成员，被所有的类对象所共有  
+* static加在局部变量的前面改变其存储类型使之成为静态局部变量，会延长它的生存周期，但是注意不会改变其作用域！！！   
+* static加在全局变量的前面会限制该变量作用域为文件作用域，也就是说static全局变量只能在定义该变量的文件中使用，不能被其它文件使用。
 加在函数定义或声明的前面，也是限制函数作用域到文件作用域。  
-1、sizeof不将静态成员变量的大小计算在内 
-2、可以通过类名来访问静态成员（常见instance） 
+* sizeof不将静态成员变量的大小计算在内   
+* 可以通过类名来访问静态成员（常见instance）   
 static aaa* instance(void)
 {
 	static aaa x;
 	return &x;
 }
 访问方式aaa::instance()
-3、静态成员函数不能直接访问类的非静态成员，但可以通过以下方式访问
+* 静态成员函数不能直接访问类的非静态成员，但可以通过以下方式访问  
 [C++静态成员函数访问非静态成员的几种方法](https://www.cnblogs.com/rickyk/p/4238380.html)
 [类的静态成员](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483732&idx=1&sn=942f4ee8f3e0617b1d189eecd492d73f&scene=21#wechat_redirect)
+
 ### 6、智能指针
 将释放内存操作写进析构函数
 auto_ptr可以转移所有权，当有两个同时指向同一个内存，当退出作用域的时候会析构两次，造成错误；unique_ptr如果出现这种情况链接不通过；shared_ptr则采用内部计数器的方式，当0的时候就不进行析构
 [智能指针share_ptr和unique_ptr](https://mp.weixin.qq.com/s?__biz=MzIwNTc4NTEwOQ==&mid=2247483809&idx=1&sn=373d64600b944be7258304119dae247e&scene=21#wechat_redirect)
+
 
 
 
