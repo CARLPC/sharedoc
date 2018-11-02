@@ -94,6 +94,7 @@ hash_multimap|hash表|无序|可重复|
 ### 1、对udp socket做connect，含义是？
 对udp做connect是可以的，其效果是给这个sock绑定对端地址，普通的用法是：sendto(udpsock, xxx, 对端地址)，如果你先connect对端地址，然后就可以直接用send来发送udp，不用每次指定对端地址了，因为每次sendto将对端地址传入并拷贝到内核，还是有点费时间的
 ### 2、不用listen和accept，如何建立tcp链接
+![image](https://raw.githubusercontent.com/CARLPC/sharedoc/master/%E7%8A%B6%E6%80%81%E8%BF%81%E7%A7%BB%E5%9B%BE.jpg)
 其实考的是tcp状态图中很特殊的一条线、tcp协议本身是允许不监听直接建立链接的、双方互相对撞syn包即可，具体测试方法很简单，你弄两个进程，分别创建tcp sock，绑定各自端口，然后死循环connect对方，只要两个connect刚好对上，链接就建立了。
 实际这条应该是为了简化协议栈而引入的，不过貌似tcp打洞可以这样搞，p2p的时候，但是也跟nat策略有关，因为一般是udp打洞，所以很少碰到类似场景，但理论上是可行的
 
