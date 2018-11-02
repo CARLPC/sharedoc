@@ -59,6 +59,9 @@ public:
 * 虚函数的实现原理，虚函数表
 	[虚函数表](https://blog.csdn.net/wuchuanpingstone/article/details/6742465/)
 
+### 8、指针与引用
+前者别名引用，后者句柄引用[指针和引用区别](https://blog.csdn.net/study__linux/article/details/51352206)
+
 
 ## 树
 ### 1、二叉树
