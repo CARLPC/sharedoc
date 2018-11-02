@@ -60,8 +60,31 @@ public:
 	[虚函数表](https://blog.csdn.net/wuchuanpingstone/article/details/6742465/)
 
 ### 8、指针与引用
-前者别名引用，后者句柄引用[指针和引用区别](https://blog.csdn.net/study__linux/article/details/51352206)
+前者别名引用，后者句柄引用
+[指针和引用区别](https://blog.csdn.net/study__linux/article/details/51352206)
 
+### 9、STL容器
+### 索引
+[STL 方法含义](https://github.com/huihut/interview/tree/master/STL)
+### 容器
+
+容器 | 底层数据结构 | 有无序 | 可不可重复 | 其他
+---|---|---|---|---
+[array](https://github.com/huihut/interview/tree/master/STL#array)|数组|无序|可重复|支持快速随机访问
+[vector](https://github.com/huihut/interview/tree/master/STL#vector)|数组|无序|可重复|支持快速随机访问
+[list](https://github.com/huihut/interview/tree/master/STL#list)|双向链表|无序|可重复|支持快速增删
+[deque](https://github.com/huihut/interview/tree/master/STL#deque)|双端队列（一个中央控制器+多个缓冲区）|无序|可重复|支持首尾快速增删，支持随机访问
+[stack](https://github.com/huihut/interview/tree/master/STL#stack)|deque 或 list 封闭头端开口|无序|可重复|不用 vector 的原因应该是容量大小有限制，扩容耗时
+[queue](https://github.com/huihut/interview/tree/master/STL#queue)|deque 或 list 封闭底端出口和前端入口|无序|可重复|不用 vector 的原因应该是容量大小有限制，扩容耗时
+[priority_queue](https://github.com/huihut/interview/tree/master/STL#priority_queue)|vector|无序|可重复|vector容器+heap处理规则
+[set](https://github.com/huihut/interview/tree/master/STL#set)|红黑树|有序|不可重复|
+[multiset](https://github.com/huihut/interview/tree/master/STL#multiset)|红黑树|有序|可重复|
+[map](https://github.com/huihut/interview/tree/master/STL#map)|红黑树|有序|不可重复|
+[multimap](https://github.com/huihut/interview/tree/master/STL#multimap)|红黑树|有序|可重复|
+hash_set|hash表|无序|不可重复|
+hash_multiset|hash表|无序|可重复|
+hash_map|hash表|无序|不可重复|
+hash_multimap|hash表|无序|可重复|
 
 ## 树
 ### 1、二叉树
