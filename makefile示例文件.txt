@@ -1,0 +1,35 @@
+﻿VERSION=WE
+NAME=hello
+CC	=	/usr/local/ats/bin/tsxs    ##指定编译器
+LDFLAGS	=	-lpthread				##链接库
+ALL_FLAGS	=	$(LDFLAGS)	
+
+##连接依赖
+DEPEND_OBJECTS	=	hello.lo	\
+HTTPBase.lo	\
+HTTPRequest.lo	\
+CacheMgr.lo	\
+HTTPResponse.lo	
+
+
+TARGET_OBJECTS=	$(NAME).so
+
+###当前路径下的
+SRCS	=	 $(wildcard ./*.cpp)  
+OBJS	= 	$(patsubst %.cpp, %.lo, $(SRCS)) 
+
+$(TARGET_OBJECTS):$(DEPEND_OBJECTS)
+	$(CC)	$(ALL_FLAGS)	-o	$(TARGET_OBJECTS)	$(DEPEND_OBJECTS)	
+
+$(OBJS):%.lo : %.cpp  
+	$(CC)	$(ALL_FLAGS)	-c	$< 
+
+display:
+	@echo	$(SRCS) 
+	@echo	$(NAME)
+	@echo	$(OBJS)
+install:
+	$(CC)	-o $(TARGET_OBJECTS) -i
+
+clean:
+	rm	-f	$(TARGET_OBJECTS)	$(DEPEND_OBJECTS)	
